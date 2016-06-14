@@ -3,7 +3,7 @@ html {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	word-wrap: break-word; 
+	word-wrap: break-word;
 }
 
 body {
@@ -42,22 +42,6 @@ a, a:active, a:link, a:visited {
 
 a:hover {
 	text-decoration: underline;
-}
-
-
-#info button {
-	cursor: pointer;
-	border-radius: 10px;
-	border: 0px;
-	transition: background .15s ease-in-out;
-  -moz-transition: background .15s ease-in-out;
-  -webkit-transition: background .15s ease-in-out;
-}
-
-
-button:focus {
-	border: none;
-	outline:none;
 }
 
 #container {
