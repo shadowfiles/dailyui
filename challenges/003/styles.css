@@ -1,0 +1,166 @@
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	word-wrap: break-word;
+}
+
+body {
+	color: #222;
+	background: #002F5E url('bird.jpg') no-repeat 120% 20%;
+	font-size: 14px;
+	line-height: 22px;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, 'san serif';
+}
+
+img {
+	border: 0px;
+}
+
+h1 {
+	position: absolute;
+	display: block;
+	font-size: 3.2em;
+	line-height: 200%;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	width: 100%;
+	font-family: 'Crimson Text', serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #FFF;
+	background: #003F80;
+	border-bottom: #E0162B 10px solid;
+}
+
+h1 strong {
+	font-size: 1.2em;
+	color: #E0162B;
+}
+
+p {
+	display: block;
+	font-size: 1em;
+	margin: 1em 0px;
+	padding: 0px;
+}
+
+a, a:active, a:link, a:visited {
+	text-decoration: none;
+	color: #233176;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input[type="text"], input[type="submit"], select {
+	margin: 0 5px 0 0;
+	box-sizing: border-box;
+	font-size: 20px;
+	line-height: 28px;
+	padding: 10px 20px;
+	background: #fff;
+	width: 70%;
+	border: #ccc 1px solid;
+}
+
+button.help {
+	width: 50%;
+	margin: auto;
+}
+
+button, input[type="submit"] {
+	font-size: 20px;
+	line-height: 28px;
+	padding: 10px 20px;
+	color: #fff;
+	background: #E0162B;
+	cursor: pointer;
+	border: 0px;
+	transition: background .15s ease-in-out;
+  -moz-transition: background .15s ease-in-out;
+  -webkit-transition: background .15s ease-in-out;
+}
+
+button:hover, input[type="submit"]:hover {
+	background: #F78190;
+}
+
+#fade {
+	float: left;
+	width: 50%;
+	background: #69884e;
+	box-shadow: 0px 50px 80px 50px #69884e;
+	height: 100%;
+	text-align: center;
+}
+
+#container {
+	position: absolute;
+	z-index: 9999;
+	top: 150px;
+	left: 8%;
+	width: 45%;
+	min-width: 450px;
+	color: #fff;
+}
+
+.section {
+	padding: 20px;
+	background: rgba(0, 63, 128, 0.5);
+	margin-bottom: 20px;
+}
+
+.section.help {
+	background: rgba(0, 63, 128, 0.8);
+}
+
+h2 {
+	font-family: 'Crimson Text', serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 120%;
+	color: #FFF;
+	font-size: 3.7em;
+	margin: 0 0 20px 0;
+	width: 100%;
+	border-bottom: #E0162B 8px solid;
+}
+
+.clearfix {
+	height: 1px;
+	float: left;
+	clear: both;
+}
+
+@media (max-width: 1000px) {
+	 #fade {
+		 width: 30%;
+	 }
+}
+
+@media (max-width: 800px) {
+  body {
+    background: #002F5E url('bird.jpg') no-repeat center 20%;
+  }
+
+	#fade {
+		display: none;
+	}
+
+	#container {
+		position: absolute;
+		z-index: 9999;
+		top: 150px;
+		left: 5%;
+		width: 90%;
+		color: #fff;
+	}
+}
