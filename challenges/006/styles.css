@@ -56,18 +56,19 @@ h2 {
 	width: 100%;
 	background-color: #fff;
 	box-sizing: border-box;
-	padding: 6px;
+	padding: 20px;
+	line-height: 200%;
 }
 
 .column {
-	width: 32%;
-	margin-left: 1%;
+	width: 31.5%;
+	margin-left: 1.5%;
 	float: left;
 }
 
 .column img {
-	margin-bottom: 5px;
-	border: #fff 3px solid;
+	margin-bottom: 12px;
+	border: #847c9c 4px solid;
 	float: left;
 	background-color: #fff;
 	box-sizing: border-box;
@@ -75,7 +76,7 @@ h2 {
 }
 
 .column img:hover {
-	border: #4DB788 3px solid;
+	border: #4DB788 4px solid;
 }
 
 .clearfix {
