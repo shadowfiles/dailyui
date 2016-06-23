@@ -8,7 +8,7 @@ html {
 
 body {
 	color: #222;
-	background: #B2EBF2;
+	background: #E0E0E0;
 	font-size: 14px;
 	line-height: 150%;
 	width: 100%;
@@ -56,11 +56,11 @@ body {
 }
 
 .switch label b:hover {
-	background: #f1c40f;
+	background: #FFD740;
 }
 
 .switch input:checked + b {
-	background: #2ecc71;
+	background: #00C853;
 }
 
 .switch input {
@@ -84,11 +84,11 @@ button, input[type="submit"] {
 }
 
 button:hover, input[type="submit"]:hover {
-	background: #f1c40f;
+	background: #FFD740;
 }
 
 button:active, input[type="submit"]:active {
-	background: #2ecc71;
+	background: #00C853;
 }
 
 .clearfix {
