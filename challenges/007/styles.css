@@ -8,13 +8,13 @@ html {
 
 body {
 	color: #222;
-	background: #bdc3c7;
+	background: #B2EBF2;
 	font-size: 14px;
 	line-height: 150%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: Arial;
+	font-family: 'Lato', sans-serif;
 }
 
 #container {
@@ -41,6 +41,9 @@ body {
 	padding: 5px 12px;
 	cursor: pointer;
 	background: #fff;
+	transition: background .15s ease-in-out;
+  -moz-transition: background .15s ease-in-out;
+  -webkit-transition: background .15s ease-in-out;
 }
 
 .switch label:first-of-type b {
@@ -62,6 +65,30 @@ body {
 
 .switch input {
 	display: none;
+}
+
+button, input[type="submit"] {
+	font-weight: normal;
+	border: 1px solid;
+	min-width: 50px;
+	text-align: center;
+	line-height: 150%;
+	font-weight: 14px;
+	padding: 5px 12px;
+	cursor: pointer;
+	background: #fff;
+	border-radius: 8px 8px 8px 8px;
+	transition: background .15s ease-in-out;
+  -moz-transition: background .15s ease-in-out;
+  -webkit-transition: background .15s ease-in-out;
+}
+
+button:hover, input[type="submit"]:hover {
+	background: #f1c40f;
+}
+
+button:active, input[type="submit"]:active {
+	background: #2ecc71;
 }
 
 .clearfix {
